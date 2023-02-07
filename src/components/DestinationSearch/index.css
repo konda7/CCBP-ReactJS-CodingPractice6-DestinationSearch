@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 567px) {
+  .bg-container {
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #252627;
+}
+
+.search-input {
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+@media screen and (min-width: 567px) {
+  .items-container {
+    padding: 0;
+  }
+}
